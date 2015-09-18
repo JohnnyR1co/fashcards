@@ -1,0 +1,1598 @@
+
+
+Started GET "/" for ::1 at 2015-09-18 01:39:36 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1465ms (Views: 1455.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 01:39:38 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 01:39:38 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 01:39:38 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 01:39:38 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 01:39:38 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 01:39:38 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 01:39:38 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 01:47:37 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 01:47:37 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 01:47:37 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 01:47:37 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 01:47:37 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 01:47:37 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 01:47:37 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 01:47:37 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 01:47:49 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 01:47:49 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 01:47:49 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 01:47:49 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 01:47:49 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 01:47:49 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 01:47:49 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 01:47:49 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 01:52:04 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 01:52:04 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 01:52:04 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 01:52:04 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 01:52:04 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 01:52:04 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 01:52:04 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 01:52:04 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 01:52:45 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 01:52:45 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 01:52:45 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 01:52:45 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 01:52:45 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 01:52:45 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 01:52:45 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 01:52:45 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 01:55:10 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 01:55:11 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 01:55:11 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 01:55:11 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 01:55:11 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 01:55:11 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 01:55:11 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 01:55:11 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 01:56:39 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 01:56:39 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 01:56:39 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 01:56:39 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 01:56:39 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 01:56:39 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 01:56:39 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 01:56:39 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 01:57:15 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 01:57:15 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 01:57:16 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 01:57:16 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 01:57:16 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 01:57:16 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 01:57:16 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 01:57:16 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 02:03:45 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+              <li role="presentation">'.free...
+               ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:22: unknown regexp option - l
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+          </div>
+           ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:24: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+      </div>     
+       ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:26: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:31: unknown regexp options - bdy
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+</html>
+ ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: unterminated regexp meets end of file):
+  app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:22: unknown regexp option - l
+  app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:24: unknown regexp options - dv
+  app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:26: unknown regexp options - dv
+  app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:31: unknown regexp options - bdy
+  app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:32: unterminated regexp meets end of file
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (48.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (114.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:04:49 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+              <li role="presentation">'.free...
+               ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:22: unknown regexp option - l
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+          </div>
+           ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:24: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+      </div>     
+       ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:26: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:31: unknown regexp options - bdy
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+</html>
+ ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: unterminated regexp meets end of file):
+  app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:22: unknown regexp option - l
+  app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:24: unknown regexp options - dv
+  app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:26: unknown regexp options - dv
+  app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:31: unknown regexp options - bdy
+  app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:32: unterminated regexp meets end of file
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (88.8ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:08:05 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+              <li role="presentation">'.free...
+               ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:22: unknown regexp option - l
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+          </div>
+           ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:24: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+      </div>     
+       ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:26: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:31: unknown regexp options - bdy
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+</html>
+ ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: unterminated regexp meets end of file):
+  app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:22: unknown regexp option - l
+  app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:24: unknown regexp options - dv
+  app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:26: unknown regexp options - dv
+  app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:31: unknown regexp options - bdy
+  app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:32: unterminated regexp meets end of file
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.1ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (86.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:12:02 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+ <!--             <li role="pre...
+  ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+ <!--             <li role="presentation">'.free...
+                   ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:22: unknown regexp option - l
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+          </div>
+           ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:24: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+      </div>     
+       ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:26: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:31: unknown regexp options - bdy
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+</html>
+ ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: unterminated regexp meets end of file):
+  app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:22: unknown regexp option - l
+  app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:24: unknown regexp options - dv
+  app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:26: unknown regexp options - dv
+  app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:31: unknown regexp options - bdy
+  app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:32: unterminated regexp meets end of file
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (88.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:12:36 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:22: syntax error, unexpected '<'
+            </ul>          
+             ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:23: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:24: syntax error, unexpected '<'
+        </div>  
+         ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:25: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:26: syntax error, unexpected '<'
+    </div>    
+     ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:27: unknown regexp options - dv
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:31: syntax error, unexpected '<', expecting ')'
+</body>
+ ^
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:32: unknown regexp options - htl
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:33: unterminated string meets end of file
+/Users/apple/Documents/rortutorials/flashcards/app/views/layouts/application.html.erb:33: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/application.html.erb:22: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:23: unknown regexp options - dv
+  app/views/layouts/application.html.erb:24: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:25: unknown regexp options - dv
+  app/views/layouts/application.html.erb:26: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:27: unknown regexp options - dv
+  app/views/layouts/application.html.erb:31: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:32: unknown regexp options - htl
+  app/views/layouts/application.html.erb:33: unterminated string meets end of file
+  app/views/layouts/application.html.erb:33: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.0ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apple/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (90.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:13:53 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 02:13:54 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 02:13:54 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 02:13:54 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 02:13:54 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 02:13:54 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 02:13:54 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 02:13:54 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 02:14:17 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 02:14:17 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 02:14:17 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 02:14:17 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 02:14:17 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 02:14:18 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 02:14:18 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 02:14:18 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 02:14:20 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:14:21 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:14:23 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:14:24 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 02:14:26 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 11:30:55 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:30:55 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 11:30:55 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:30:55 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:30:55 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:30:55 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:30:55 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:30:55 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:38:06 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:38:06 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-18 11:38:06 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:38:06 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:38:06 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:38:06 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:38:06 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:38:06 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:45:50 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:45:50 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:45:50 +1000
+
+
+Started GET "/assets/application.self-063b3f92b0c6026645e7a140c37d4d7af77bacfb868478e3a416a86a27a27509.css?body=1" for ::1 at 2015-09-18 11:45:50 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:45:50 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:45:50 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:45:50 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:45:50 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:46:50 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 55ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:46:50 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:46:50 +1000
+
+
+Started GET "/assets/application.self-9d840f73b2e676eaf506575c4b168dfe403f46db2625fb4c17f2749bf017f4b0.css?body=1" for ::1 at 2015-09-18 11:46:51 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:46:51 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:46:51 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:46:51 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:46:51 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:49:04 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:49:04 +1000
+
+
+Started GET "/assets/application.self-65292da8a1489d8fac435777a67c09dd1097be12cdd93cb4a6eb8b6d9f971102.css?body=1" for ::1 at 2015-09-18 11:49:04 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:49:04 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:49:04 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:49:04 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:49:04 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:49:04 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:50:05 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:50:05 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:50:05 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:50:05 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:50:05 +1000
+
+
+Started GET "/assets/application.self-74909ebef68f9b51850b077b7cc03179da8bf6fb3028e6ef325b2b106bcdbe68.css?body=1" for ::1 at 2015-09-18 11:50:05 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:50:05 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:50:05 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:50:46 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:50:46 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:50:46 +1000
+
+
+Started GET "/assets/application.self-2dc181dde3e18ab261823b17fcd164f4219268570c1c571bec67e55569e79b12.css?body=1" for ::1 at 2015-09-18 11:50:46 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:50:46 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:50:46 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:50:46 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:50:46 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:51:04 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f6a075b577411acd358fa8d4275a07cc4644549168bfee1c9f15727e056bd5b.css?body=1" for ::1 at 2015-09-18 11:51:04 +1000
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:51:04 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:51:04 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:51:04 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:51:04 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:51:04 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:51:04 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:54:47 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 135ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:54:47 +1000
+
+
+Started GET "/assets/application.self-0aa0325e4d94a4ccd464bbde8180d3447e7b9f7f176cf010ff5ba239757dba66.css?body=1" for ::1 at 2015-09-18 11:54:47 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:54:47 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:54:47 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:54:47 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:54:47 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:54:47 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:54:49 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:54:49 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:54:49 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:54:49 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:54:49 +1000
+
+
+Started GET "/assets/application.self-0aa0325e4d94a4ccd464bbde8180d3447e7b9f7f176cf010ff5ba239757dba66.css?body=1" for ::1 at 2015-09-18 11:54:49 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:54:49 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:54:49 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:55:31 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:55:32 +1000
+
+
+Started GET "/assets/application.self-79232757050adb826c0cebd601ea7b5b55a29371fd0f53a8eab391e82a24af37.css?body=1" for ::1 at 2015-09-18 11:55:32 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:55:32 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:55:32 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:55:32 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:55:32 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:55:32 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:56:32 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 74ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:56:32 +1000
+
+
+Started GET "/assets/application.self-11f73b0201865f9f10cf60073ab9f38dfb0f4249fd05edb04965341f0526484f.css?body=1" for ::1 at 2015-09-18 11:56:32 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:56:32 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:56:32 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:56:32 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:56:32 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:56:32 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:57:00 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:57:00 +1000
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:57:00 +1000
+
+
+Started GET "/assets/application.self-2b49ddcc97a0cebcd17c187060fe90c1018b992a29f23da11d19bc8162fa4f3c.css?body=1" for ::1 at 2015-09-18 11:57:00 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:57:00 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:57:00 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:57:00 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:57:00 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:58:34 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:58:34 +1000
+
+
+Started GET "/assets/application.self-871059adf0f50bd2d276176255f00619b73ba2c259b72d6b4066dec4f408eb2a.css?body=1" for ::1 at 2015-09-18 11:58:34 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:58:34 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:58:34 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:58:34 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:58:34 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:58:34 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 11:59:35 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 11:59:35 +1000
+
+
+Started GET "/assets/application.self-1296ec12a6898831207f2aa83d45c0ae32bd95cb6570eb3e2d6c13144d763dd9.css?body=1" for ::1 at 2015-09-18 11:59:35 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 11:59:35 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 11:59:35 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 11:59:35 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 11:59:35 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 11:59:35 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 12:00:08 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 12:00:08 +1000
+
+
+Started GET "/assets/application.self-b12efd1e9da46b36f1e440775f9176248ae100953ce126d0994cf8d99fa409f5.css?body=1" for ::1 at 2015-09-18 12:00:08 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 12:00:08 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 12:00:08 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 12:00:08 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 12:00:08 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 12:00:08 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 12:00:31 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 12:00:31 +1000
+
+
+Started GET "/assets/application.self-c336e938dbe3d34308f3bcd87566b06d64fe8701dd05f83e0a020fcf21efc4cd.css?body=1" for ::1 at 2015-09-18 12:00:31 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 12:00:31 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 12:00:31 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 12:00:31 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 12:00:31 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 12:00:31 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 12:00:51 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 12:00:51 +1000
+
+
+Started GET "/assets/application.self-f6fb674f8a138293425a34b53a4f415e13c02b053011e523a3e1ece17b4a3ff6.css?body=1" for ::1 at 2015-09-18 12:00:51 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 12:00:51 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 12:00:51 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 12:00:51 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 12:00:51 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 12:00:51 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 12:01:30 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 12:01:30 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 12:01:31 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-18 12:02:49 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 12:02:49 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 12:02:49 +1000
+
+
+Started GET "/assets/application.self-f6fb674f8a138293425a34b53a4f415e13c02b053011e523a3e1ece17b4a3ff6.css?body=1" for ::1 at 2015-09-18 12:02:49 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 12:02:49 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 12:02:49 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 12:02:49 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 12:02:49 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 12:02:51 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 12:02:51 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 12:02:51 +1000
+
+
+Started GET "/assets/application.self-f6fb674f8a138293425a34b53a4f415e13c02b053011e523a3e1ece17b4a3ff6.css?body=1" for ::1 at 2015-09-18 12:02:51 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 12:02:51 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 12:02:51 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 12:02:51 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 12:02:51 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 12:03:14 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 12:03:14 +1000
+
+
+Started GET "/assets/application.self-6670cbd32244daf9566a16e445523dcad8adab4227dac99b4d653908528c6697.css?body=1" for ::1 at 2015-09-18 12:03:14 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 12:03:14 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 12:03:14 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 12:03:14 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 12:03:14 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 12:03:14 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 12:03:25 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 12:03:25 +1000
+
+
+Started GET "/assets/application.self-c22dce1588c05ed31723f48eec617ab25ca97ed353caa56f69921b7ca0549943.css?body=1" for ::1 at 2015-09-18 12:03:25 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 12:03:25 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 12:03:25 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 12:03:25 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 12:03:25 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 12:03:25 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:00:53 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 102ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:00:53 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:00:53 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:00:53 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:00:53 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:00:53 +1000
+
+
+Started GET "/assets/application.self-c22dce1588c05ed31723f48eec617ab25ca97ed353caa56f69921b7ca0549943.css?body=1" for ::1 at 2015-09-18 21:00:53 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:00:53 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:01:53 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:01:53 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:01:53 +1000
+
+
+Started GET "/assets/application.self-8ac0dd87931329b028e194ddc478917763a0501bbd10e5ed36c572fd69903851.css?body=1" for ::1 at 2015-09-18 21:01:53 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:01:53 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:01:53 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:01:53 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:01:53 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:02:21 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 111.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:02:21 +1000
+
+
+Started GET "/assets/application.self-1008936eed8745d33c84edf2b9eb92e06b5ca696411fed4d8d8600ff8623e0eb.css?body=1" for ::1 at 2015-09-18 21:02:21 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:02:21 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:02:21 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:02:21 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:02:21 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:02:21 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:02:23 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:02:23 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:02:23 +1000
+
+
+Started GET "/assets/application.self-1008936eed8745d33c84edf2b9eb92e06b5ca696411fed4d8d8600ff8623e0eb.css?body=1" for ::1 at 2015-09-18 21:02:23 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:02:23 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:02:23 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:02:23 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:02:23 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:02:56 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:02:56 +1000
+
+
+Started GET "/assets/application.self-b87b34bd187775f9bea6d5ab5dd2a93eb53c41b9003ee85b7ff79a24f4208367.css?body=1" for ::1 at 2015-09-18 21:02:56 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:02:56 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:02:56 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:02:56 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:02:56 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:02:56 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:03:15 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7d0e3570b56c9d33edbc9c4ac08bf21c8a3d9ca5676ebee4c4b4937bd427a968.css?body=1" for ::1 at 2015-09-18 21:03:15 +1000
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:03:15 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:03:15 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:03:15 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:03:15 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:03:15 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:03:15 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:03:29 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:03:29 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:03:29 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:03:29 +1000
+
+
+Started GET "/assets/application.self-a11dafdaf41e441317d0254b642f51a071425242b8858f07ebae3a07c99377f5.css?body=1" for ::1 at 2015-09-18 21:03:29 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:03:29 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:03:29 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:03:29 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:03:46 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:03:46 +1000
+
+
+Started GET "/assets/application.self-2caa70f588686dd6c70e39f94eed7b2a38900bcf9f2e870b449b2bbd5a92d803.css?body=1" for ::1 at 2015-09-18 21:03:46 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:03:46 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:03:46 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:03:46 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:03:46 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:03:46 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:04:15 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:04:15 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:04:15 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:04:15 +1000
+
+
+Started GET "/assets/application.self-2bdf0e1a140b499cf0fb149663584c2e5b8cc892b974262f5de87f8bcde55d9a.css?body=1" for ::1 at 2015-09-18 21:04:15 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:04:15 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:04:15 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:04:15 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:05:01 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:05:02 +1000
+
+
+Started GET "/assets/application.self-2bdf0e1a140b499cf0fb149663584c2e5b8cc892b974262f5de87f8bcde55d9a.css?body=1" for ::1 at 2015-09-18 21:05:02 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:05:02 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:05:02 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:05:02 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:05:02 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:05:02 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:05:20 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:05:20 +1000
+
+
+Started GET "/assets/application.self-2bdf0e1a140b499cf0fb149663584c2e5b8cc892b974262f5de87f8bcde55d9a.css?body=1" for ::1 at 2015-09-18 21:05:20 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:05:20 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:05:20 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:05:20 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:05:20 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:05:20 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:05:39 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2bdf0e1a140b499cf0fb149663584c2e5b8cc892b974262f5de87f8bcde55d9a.css?body=1" for ::1 at 2015-09-18 21:05:39 +1000
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:05:39 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:05:39 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:05:39 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:05:39 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:05:39 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:05:39 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:06:11 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:06:11 +1000
+
+
+Started GET "/assets/application.self-b6e8b141d5890ca75a45a27de3314fedf157c594b378c2c7ebf8242730f6d951.css?body=1" for ::1 at 2015-09-18 21:06:11 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:06:11 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:06:11 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:06:11 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:06:11 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:06:11 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:06:42 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:06:43 +1000
+
+
+Started GET "/assets/application.self-a77c6d654a46b6884ce0e07e396722f6cf4bf7db3b01f216c928b04271342dae.css?body=1" for ::1 at 2015-09-18 21:06:43 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:06:43 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:06:43 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:06:43 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:06:43 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:06:43 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:10:20 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:10:20 +1000
+
+
+Started GET "/assets/application.self-cd85a6954e05f4bac2d2cc1e9fa89fff276b59a987ce38807af0fc2c5edcecdc.css?body=1" for ::1 at 2015-09-18 21:10:20 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:10:20 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:10:20 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:10:20 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:10:20 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:10:20 +1000
+
+
+Started GET "/" for ::1 at 2015-09-18 21:11:34 +1000
+Processing by CardsController#index as HTML
+  Rendered cards/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-18 21:11:34 +1000
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2015-09-18 21:11:34 +1000
+
+
+Started GET "/assets/application.self-2068e2f278326004080e663601d1f2bdfc1c1506e3ee243460485c8154a1af92.css?body=1" for ::1 at 2015-09-18 21:11:34 +1000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-18 21:11:34 +1000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-18 21:11:34 +1000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-18 21:11:34 +1000
+
+
+Started GET "/assets/cards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-18 21:11:34 +1000

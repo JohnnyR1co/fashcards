@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flashcards</title>
+  <%= stylesheet_link_tag    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>Флэшкарточкер</h3>
+        </div>
+        <div class="col-md-9">
+          <div class="pull-right">
+            <ul class="nav nav-pills">
+              <li role="presentation"><%= link_to "Все карточки", '#', class: "btn" %></li>
+              <li role="presentation"><%= link_to "Добавить карточку", '#', class: "btn" %></li>
+            </ul>          
+          </div>
+        </div>  
+      </div>     
+    </div>    
+  </div>
+
+<%= yield %>
+
+  <div class="footer">
+    <div class="container">
+      <div class="pull-right">
+        <p>J.R1co, 2015</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
