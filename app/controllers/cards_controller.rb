@@ -16,9 +16,9 @@ class CardsController < ApplicationController
     @card = Card.new(card_params) 
 
     if @card.save
-      redirect_to @card, :notice => 'The card is saved'
+      redirect_to @card, :notice => "The card is saved"
     else
-      render 'new'
+      render "new"
     end
   end
 
