@@ -1,4 +1,4 @@
-class CardsController < ApplicationController
+class CardsController < ApplicationController  
   
   def index
     @cards = Card.all
@@ -22,16 +22,13 @@ class CardsController < ApplicationController
     end
   end
 
-  def edit
-    
+  def edit   
   end
 
-  def update
-    
+  def update   
   end
 
-  def destroy
-    
+  def destroy   
   end
 
   private
@@ -40,4 +37,3 @@ class CardsController < ApplicationController
     end
  
 end
-
