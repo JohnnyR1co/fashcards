@@ -1,0 +1,18 @@
+<div class="main">
+  <div class="container">
+    <p>
+      <strong>Original text:</strong>
+      <%= @card.original_text %>
+    </p>
+ 
+    <p>
+      <strong>Translated_text:</strong>
+      <%= @card.translated_text %>
+    </p>
+
+    <p>
+      <strong>Review date</strong>
+      <%= @card.review_date.strftime("%d/%m/%Y") %>
+    </p>
+  </div>
+</div>
