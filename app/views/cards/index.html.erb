@@ -1,21 +1,23 @@
-<div class="main">
-  <div class="container">
-    <h1>Listing cards</h1>
+<h1>Listing cards</h1>
  
-    <table>
-      <tr>
-        <th>Original text</th>
-        <th>Translated text</th>
-        <th>Review date</th>
-      </tr>
+<table>
+  <tr>
+    <th>Original text</th>
+    <th>Translated text</th>
+    <th>Review date</th>
+    <th colspan="2"></th>
+  </tr>
  
-      <% @cards.each do |card| %>
-        <tr>
-          <td><%= card.original_text %></td>
-          <td><%= card.translated_text %></td>
-          <td><%= card.review_date.strftime("%d/%m/%Y") %></td>
-        </tr>
-      <% end %>
-    </table>
-  </div>
-</div>
+  <% @cards.each do |card| %>
+    <tr>
+      <td><%= card.original_text %></td>
+      <td><%= card.translated_text %></td>
+      <td><%= card.review_date.strftime("%d/%m/%Y") %></td>
+      <td><%= link_to "Edit", edit_card_path(card) %></td>
+      <td><%= link_to "Destroy", card_path(card),
+          method: :delete,
+          data: { confirm: "Are you sure?" } %></td>
+    </tr>
+  <% end %>
+</table>
+ 
