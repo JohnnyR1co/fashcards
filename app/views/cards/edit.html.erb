@@ -1,11 +1,5 @@
+<h1>Edit Card</h1>
 <%= form_for @card, :html => {:class => "form"} do |f| %>
-  <% if @card.errors.any? %>
-    <ul>
-      <% @card.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-    </ul>
-  <% end %>
   <p>
     <h1><%= f.label :original_text %><br></h1>
     <%= f.text_field :original_text %>
@@ -18,7 +12,7 @@
  
   <p>
     <h1><%= f.label :review_date %></h1>
-    <%= f.date_field :review_date, value: (DateTime.now.to_date + 3) %>
+    <%= f.date_field :review_date %>
   </p>
 
   <p>

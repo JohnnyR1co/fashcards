@@ -41,20 +41,26 @@ body {
 /* main */
 .main {
   background-color: #000;
-  height: 510px;
+  height: 580px;
   font-size: 16px;
   .container {
     padding-top: 20px;
   }
   table {
-    width: 350px;
-    text-align: center;
+    width: 500px;  
   }
   .form {
     color: #000;
     h1 {
       color: #fff;
       font-size: 16px;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      color: #fff;
+      font-size: 10px;
     }
   }
 }
