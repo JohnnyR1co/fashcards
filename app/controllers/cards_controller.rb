@@ -12,16 +12,14 @@ class CardsController < ApplicationController
   end
 
   def edit
-    @card = Card.find(params[:id])   
+    @card = Card.find(params[:id])
   end
 
   def create
     @card = Card.new(card_params) 
-    @card[:original_text].capitalize!
-    @card[:translated_text].capitalize!
 
-    if @card.save 
-      redirect_to @card, notice: "The card is saved"     
+    if @card.save
+      redirect_to @card, notice: "The card is saved"
     else
       render "new"
     end
@@ -37,14 +35,15 @@ class CardsController < ApplicationController
     end 
   end
 
-  def destroy 
+  def destroy
     @card = Card.find(params[:id])
     @card.destroy
  
-    redirect_to cards_path, notice: "The card has been deleted"  
+    redirect_to cards_path, notice: "The card has been deleted"
   end
 
   private
+  
     def card_params
       params.require(:card).permit(:original_text, :translated_text, :review_date)
     end 
