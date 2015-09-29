@@ -1,0 +1,9 @@
+<p><%= @card.original_text %></p>
+<p><%= @card.translated_text %></p>
+<p><%= @card.review_date.strftime("%d/%m/%Y") %></p>
+
+<%= form_tag(check_path, method: "put", class: "form") do %>
+  <%= text_field_tag :your_translate, params[:your_translate] %>
+  <%= submit_tag "Check" %>  
+  <%= hidden_field_tag :id, @card.id %>
+<% end %>

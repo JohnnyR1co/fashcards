@@ -42,6 +42,22 @@ class CardsController < ApplicationController
     redirect_to cards_path, notice: "The card has been deleted"
   end
 
+  def random
+    @card = Card.random.order("RANDOM()").take
+  end
+
+  def check
+    @card = Card.find(params[:id])
+
+    if @card.translated_text == params[:your_translate]
+          @card.review_date += 3.days
+          @card.save!
+          redirect_to random_path, notice: "true"
+    else
+        render "random"
+    end
+  end
+
   private
   
     def card_params

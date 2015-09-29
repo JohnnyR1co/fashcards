@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   resources :cards
   root "pages#welcome"
+
+  get "random" => "cards#random"
+  get "random" => "cards#random"
+  put "check" => "cards#check"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
