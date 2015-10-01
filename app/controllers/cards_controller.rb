@@ -50,11 +50,10 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
 
     if @card.translated_text == params[:your_translate]
-          @card.review_date += 3.days
-          @card.save!
-          redirect_to random_path, notice: "true"
+      @card.save!
+      redirect_to random_path, notice: "true"
     else
-        render "random"
+      render "random"
     end
   end
 
