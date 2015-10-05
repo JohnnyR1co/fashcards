@@ -49,8 +49,8 @@ class CardsController < ApplicationController
   def check
     @card = Card.find(params[:id])
 
-    if @card.translated_text == params[:your_translate]
-      @card.save!
+    if @card.check_translation(params[:your_translate])
+      @card.date_up
       redirect_to random_path, notice: "true"
     else
       render "random"
