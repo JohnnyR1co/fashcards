@@ -15,8 +15,8 @@ class Card < ActiveRecord::Base
   end
 
   def translate
-    if original_text.downcase == translated_text.downcase  
-      errors.add(:translated_text, "can't be the same")  
+    if original_text.downcase == translated_text.downcase
+      errors.add(:translated_text, "can't be the same")
     end
   end
 end
