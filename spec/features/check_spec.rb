@@ -6,10 +6,8 @@ describe "Checking card" do
 
   it "redirects card to random when your translate is true" do
     visit random_path(card)     
-    if card.check_translation("Тест")
-      card.date_up
-    end
+    fill_in "your_translate", with: "Тест"
     click_button "Check"
-    expect(page).to have_content "13/10/2015"
+    expect(page).to have_content "true"
   end
 end
