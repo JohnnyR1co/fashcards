@@ -7,6 +7,8 @@ env:
 
 before_script:
   - "cp config/database.ci.yml config/database.yml"
-  - "RAILS_ENV=test bundle exec rake --trace db:migrate test"
+  - "RAILS_ENV=test bundle exec rake db:create"
 
-script: "RAILS_ENV=test bundle exec rake spec"
+script: 
+  - RAILS_ENV=test bundle exec rake db:migrate --trace
+  - bundle exec rake
