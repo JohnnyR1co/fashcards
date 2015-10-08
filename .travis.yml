@@ -1,7 +1,7 @@
 language: ruby
 cache: bundler
+before_script:
+  - "cp config/database.ci.yml config/database.yml"
 script: "bundle exec rspec spec"
-addons:
-  postgresql: "9.4.4"
 rvm:
-  - 2.2.1
+  - 2.2
