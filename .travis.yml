@@ -1,5 +1,7 @@
 language: ruby
 cache: bundler
 script: bundle exec rspec spec
+addons:
+  postgresql: "9.4.4"
 rvm:
   - 2.2.1
