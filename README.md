@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/JohnnyR1co/fashcards.svg)](https://travis-ci.org/JohnnyR1co/fashcards.svg)
