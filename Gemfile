@@ -45,4 +45,6 @@ group :development, :test do
 
   # rspec-rails tests for your aplication
   gem 'rspec-rails', '~> 3.0'
+  gem 'capybara'
+  gem 'factory_girl_rails'
 end
