@@ -1,15 +1,18 @@
 language: ruby
 
 rvm:
-  - 2.2
+  - 2.2.1
+
+gemfile: Gemfile
+
 env:
   - DB=postgresql
 
-script:
-  - RAILS_ENV=test bundle exec rake db:migrate --trace
-  - bundle exec rake
-
 before_script:
+  - psql -c 'create database flashcards_test;' -U postgres
   - cp config/database.yml.travis config/database.yml
-  - psql -c 'create database travis_todo_app_test;' -U postgres
-  
+
+script: 
+  - bundle exec rake db:setup
+  - bundle exec rake db:test:prepare  
+  - bundle exec rspec spec
