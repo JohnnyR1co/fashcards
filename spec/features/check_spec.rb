@@ -2,6 +2,7 @@ require "rails_helper"
 
 describe "Checking card" do
 
+  let(:user) { create(:user) }
   let(:card) { create(:card) }
 
   it "redirects card to random when your translate is true" do
