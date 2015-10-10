@@ -5,3 +5,4 @@ FactoryGirl.define do
     review_date "10.10.2015"
   end
 end
+ 
