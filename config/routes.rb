@@ -1,16 +1,12 @@
 Rails.application.routes.draw do
-  get 'user_sessions/new'
-
-  get 'user_sessions/create'
-
-  get 'user_sessions/destroy'
-
   resources :users
   resources :cards
   root "pages#welcome"
   get "random" => "cards#random"
   put "check" => "cards#check"
   patch "check" => "cards#check"
+  get 'login' => 'user_sessions#new', :as => :login
+  post 'logout' => 'user_sessions#destroy', :as => :logout
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
