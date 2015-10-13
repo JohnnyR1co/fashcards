@@ -3,7 +3,7 @@ class Card < ActiveRecord::Base
   before_save { self.original_text = original_text.capitalize }
   validates :original_text, :translated_text, :review_date, presence: { message: "Can't be blank" }
   validates :original_text, uniqueness: { case_sensitive: false }
-  scope :random, -> { where("review_date > ?", Date.today) }
+  scope :random, -> { where("review_date <= ?", Date.today) }
   validate :translate
 
   def date_up

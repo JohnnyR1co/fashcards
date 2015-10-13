@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/new'
-
+  resources :users
   resources :cards
   root "pages#welcome"
   get "random" => "cards#random"

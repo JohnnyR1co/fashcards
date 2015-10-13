@@ -1,21 +1,3 @@
 <h1>Edit Card</h1>
-<%= form_for @card, :html => {:class => "form"} do |f| %>
-  <p>
-    <h1><%= f.label :original_text %><br></h1>
-    <%= f.text_field :original_text %>
-  </p>
- 
-  <p>
-    <h1><%= f.label :translated_text %><br></h1>
-    <%= f.text_field :translated_text %>
-  </p>
- 
-  <p>
-    <h1><%= f.label :review_date %></h1>
-    <%= f.date_field :review_date %>
-  </p>
 
-  <p>
-    <%= f.submit %>
-  </p>
-<% end %>
+<%= render "form" %>
