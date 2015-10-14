@@ -1,4 +1,5 @@
 class CardsController < ApplicationController
+  before_filter :require_login
   def index
     @cards = Card.all
   end
@@ -16,6 +17,7 @@ class CardsController < ApplicationController
   end
 
   def create
+    @user = User.find(params[:user_id])
     @card = Card.new(card_params) 
 
     if @card.save

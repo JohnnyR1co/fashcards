@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   end
 
   def edit
+    @user = User.find(params[:id])
   end
 
   def create
@@ -13,6 +14,16 @@ class UsersController < ApplicationController
     else
       render "new"
     end
+  end
+
+  def update
+    @user = User.find(params[:id]) 
+
+    if @user.update(user_params)
+      redirect_to root_path, notice: "The user has been updated"
+    else
+      render "edit"
+    end 
   end
 
   private
