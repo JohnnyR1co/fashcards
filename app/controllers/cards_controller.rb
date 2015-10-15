@@ -18,10 +18,10 @@ class CardsController < ApplicationController
 
   def create
     @card = current_user.cards.create(card_params)
-  if @card.save
-    redirect_to cards_path, notice: "The card was saved"
-  else
-    render "new"
+    if @card.save
+      redirect_to cards_path, notice: "The card was saved"
+    else
+      render "new"
     end
   end
 

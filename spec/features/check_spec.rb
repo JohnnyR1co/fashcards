@@ -1,15 +1,14 @@
 require "rails_helper"
 require "login_helper"
 
-describe "Checking card" do
-  
+describe "Checking card" do  
   let!(:user) { create(:user) }
 
-  before(:each) do
-    login("ruby@rails.rb", "password")
-  end
+before(:each) do
+  login("ruby@rails.rb", "password")
+end
 
- let!(:card) { create(:card, user: user) }
+  let!(:card) { create(:card, user: user) }
 
   it "redirects card to random when your translate is true" do
     visit random_path(card)
