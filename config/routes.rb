@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root "pages#welcome"
   resources :user_sessions
-  resources :users 
+  resources :users
   resources :cards
   get "random" => "cards#random"
   put "check" => "cards#check"
