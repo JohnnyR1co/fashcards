@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  resources :users
-  resources :cards
-  resources :user_sessions
   root "pages#welcome"
+  resources :user_sessions
+  resources :users 
+  resources :cards
   get "random" => "cards#random"
   put "check" => "cards#check"
   patch "check" => "cards#check"

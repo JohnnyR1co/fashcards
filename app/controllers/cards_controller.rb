@@ -1,7 +1,7 @@
 class CardsController < ApplicationController
   before_filter :require_login
   def index
-    @cards = Card.all
+    @cards = current_user.cards.all
   end
 
   def show
@@ -17,13 +17,11 @@ class CardsController < ApplicationController
   end
 
   def create
-    @user = User.find(params[:user_id])
-    @card = Card.new(card_params) 
-
-    if @card.save
-      redirect_to @card, notice: "The card is saved"
-    else
-      render "new"
+    @card = current_user.cards.create(card_params)
+  if @card.save
+    redirect_to cards_path, notice: "The card was saved"
+  else
+    render "new"
     end
   end
 
@@ -45,7 +43,7 @@ class CardsController < ApplicationController
   end
 
   def random
-    @card = Card.random.order("RANDOM()").take
+    @card = current_user.cards.random.order("RANDOM()").take
   end
 
   def check
@@ -53,8 +51,9 @@ class CardsController < ApplicationController
 
     if @card.check_translation(params[:your_translate])
       @card.date_up
-      redirect_to random_path, notice: "true"
+      redirect_to random_path, notice: "You are true"
     else
+      flash.now[:alert] = "Try again!"
       render "random"
     end
   end
