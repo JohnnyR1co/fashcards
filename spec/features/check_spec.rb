@@ -4,9 +4,9 @@ require "login_helper"
 describe "Checking card" do  
   let!(:user) { create(:user) }
 
-before(:each) do
-  login("ruby@rails.rb", "password")
-end
+  before(:each) do
+    login("ruby@rails.rb", "password")
+  end
 
   let!(:card) { create(:card, user: user) }
 
