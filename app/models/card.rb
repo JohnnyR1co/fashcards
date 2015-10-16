@@ -1,6 +1,5 @@
 class Card < ActiveRecord::Base
   belongs_to :user
-  after_create { self.original_text = original_text.capitalize }
   validates :original_text, :translated_text, :review_date, presence: { message: "Can't be blank" } 
   validates :original_text, uniqueness: { scope: :user_id }
   scope :random, -> { where("review_date <= ?", Date.today) }
