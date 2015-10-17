@@ -10,6 +10,20 @@
 <body>
   <div class="header">
     <div class="container">
+      <div class="pull-right">
+        <div class="nav nav pills">
+          <% if current_user %>
+            <%= current_user.email %>
+            <%= link_to "Edit Profile", edit_user_path(current_user.id) %>
+            <%= link_to "Logout", :logout, method: :post %>
+          <% else %>
+            <%= link_to "Register", new_user_path %> |
+            <%= link_to "Login", :login %>
+          <% end %>
+        </div>
+      </div> 
+    </div>
+    <div class="container">
       <div class="row">
         <div class="col-md-3">
           <h3>Флэшкарточкер</h3>
@@ -17,9 +31,9 @@
         <div class="col-md-9">
           <div class="pull-right">
             <ul class="nav nav-pills">
-              <li role="presentation"><%= link_to "Все карточки", cards_path, class: "btn" %></li>
-              <li role="presentation"><%= link_to "Добавить карточку", new_card_path, class: "btn" %></li>
-              <li role="presentation"><%= link_to "Показать случайную", random_path, class: "btn" %></li>
+              <li role="presentation"><%= link_to "Show Cards", cards_path, class: "btn" %></li>
+              <li role="presentation"><%= link_to "Add Card", new_card_path, class: "btn" %></li>
+              <li role="presentation"><%= link_to "Random Card", random_path, class: "btn" %></li>
             </ul>          
           </div>
         </div>  
@@ -28,7 +42,9 @@
   </div>
   <div class="main">
     <div class="container">
-      <%= notice %>
+      <%= flash.notice %>
+      <%= flash.alert %>
+
 
 <%= yield %>
 

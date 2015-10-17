@@ -1,0 +1,20 @@
+<%= form_tag user_sessions_path, method: :post, class: "form" do %>
+  <p>
+    <h1><%= label_tag :email %><br></h1>
+    <%= text_field_tag :email %>
+  </p>
+
+  <p>
+    <h1><%= label_tag :password %><br></h1>
+    <%= password_field_tag :password %>
+  </p>
+  <p>
+
+    <h1><%= check_box_tag :remember, params[:remember], true %></h1>
+    <%= label_tag :remember %>
+  </p>
+
+  <p>
+    <%= submit_tag "Login" %>
+  </p>
+<% end %>
