@@ -5,6 +5,7 @@
     <th>Original text</th>
     <th>Translated text</th>
     <th>Review date</th>
+    <th>Card picture</th>
     <th colspan="2"></th>
   </tr>
  
@@ -13,6 +14,7 @@
       <td><%= card.original_text %></td>
       <td><%= card.translated_text %></td>
       <td><%= card.review_date.strftime("%d/%m/%Y") %></td>
+      <td><%= image_tag(card.card_picture_url) %></td>
       <td><%= link_to "Edit", edit_card_path(card) %></td>
       <td><%= link_to "Destroy", card_path(card),
           method: :delete,
