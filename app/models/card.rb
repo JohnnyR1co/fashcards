@@ -4,6 +4,7 @@ class Card < ActiveRecord::Base
   validates :original_text, uniqueness: { scope: :user_id }
   scope :random, -> { where("review_date <= ?", Date.today) }
   validate :translate
+  mount_uploader :card_picture, CardPictureUploader
 
   def date_up
     self.review_date += 3.days

@@ -21,6 +21,10 @@
     <%= f.date_field :review_date, value: (DateTime.now.to_date + 3) %>
   </p>
 
+  <p class="input">
+    <%= f.file_field :card_picture %>
+  </p>
+
   <p>
     <%= f.submit %>
   </p>
