@@ -1,0 +1,9 @@
+<% if @deck.nil? %>
+  <p>You dont choose a Deck</p>
+<% else %>
+  <h1> Current Deck</h1>
+  <p>
+    <strong>Name:</strong>
+    <%= @deck.name %>
+  </p>
+<% end %>

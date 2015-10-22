@@ -1,5 +1,5 @@
 class DecksController < ApplicationController
-  before_filter :require_login
+  before_action :require_login
   def index
     @decks = current_user.decks.all
   end
@@ -8,11 +8,15 @@ class DecksController < ApplicationController
     @deck = Deck.new
   end
 
+  def show
+    @deck = Deck.find(params[:id])
+  end
+
   def edit
     @deck = Deck.find(params[:id])
   end
 
- def create
+  def create
     @deck = current_user.decks.create(deck_params)
     if @deck.save
       redirect_to decks_path, notice: "The deck was saved"
