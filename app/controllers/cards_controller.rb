@@ -9,7 +9,7 @@ class CardsController < ApplicationController
   end
 
   def new
-    @card = Card.new    
+    @card = Card.new
   end
 
   def edit
@@ -17,6 +17,7 @@ class CardsController < ApplicationController
   end
 
   def create
+    @decks = current_user.decks.all
     @card = current_user.cards.create(card_params)
     if @card.save
       redirect_to cards_path, notice: "The card was saved"
@@ -43,7 +44,11 @@ class CardsController < ApplicationController
   end
 
   def random
-    @card = current_user.cards.random.order("RANDOM()").take
+    if params[:search] == ""
+      @card = current_user.cards.random.order("RANDOM()").take
+    else     
+      @card = current_user.cards.where(deck_id: params[:search]).random.order("RANDOM()").take
+    end
   end
 
   def check
@@ -61,6 +66,6 @@ class CardsController < ApplicationController
   private
   
     def card_params
-      params.require(:card).permit(:original_text, :translated_text, :review_date, :card_picture)
+      params.require(:card).permit(:original_text, :translated_text, :review_date, :card_picture, :deck_id)
     end 
 end

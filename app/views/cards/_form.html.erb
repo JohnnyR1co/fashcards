@@ -26,6 +26,12 @@
   </p>
 
   <p>
+    <% @decks = Deck.all %>
+    <%= f.select :deck_id, options_from_collection_for_select(@decks, "id", "name"), 
+        prompt: "select a field" %>
+  </p>
+
+  <p>
     <%= f.submit %>
   </p>
 <% end %>

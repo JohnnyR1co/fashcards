@@ -1,9 +1,30 @@
-<% if @deck.nil? %>
-  <p>You dont choose a Deck</p>
-<% else %>
-  <h1> Current Deck</h1>
+<h1> Current Deck</h1>
   <p>
     <strong>Name:</strong>
     <%= @deck.name %>
   </p>
-<% end %>
+
+<table>
+  <tr>
+    <th>Original text</th>
+    <th>Translated text</th>
+    <th>Review date</th>
+    <th>Card picture</th>
+    <th colspan="2"></th>
+  </tr>
+ 
+  <% @deck.cards.each do |card| %>
+    <tr>
+      <td><%= card.original_text %></td>
+      <td><%= card.translated_text %></td>
+      <td><%= card.review_date.strftime("%d/%m/%Y") %></td>
+      <td><%= image_tag card.card_picture_url(:thumb) %></td>
+      <td><%= link_to "Edit", edit_card_path(card) %></td>
+      <td><%= link_to "Destroy", card_path(card),
+          method: :delete,
+          data: { confirm: "Are you sure?" } %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= link_to "Add Card", new_card_path%>
