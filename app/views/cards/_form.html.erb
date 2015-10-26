@@ -26,9 +26,7 @@
   </p>
 
   <p>
-    <% @decks = Deck.all %>
-    <%= f.select :deck_id, options_from_collection_for_select(@decks, "id", "name"), 
-        prompt: "select a field" %>
+    <%= f.hidden_field :deck_id %>
   </p>
 
   <p>

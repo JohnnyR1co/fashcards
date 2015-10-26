@@ -10,6 +10,7 @@ class CardsController < ApplicationController
 
   def new
     @card = Card.new
+    @card.deck_id = params[:deck_id]
   end
 
   def edit
@@ -17,7 +18,6 @@ class CardsController < ApplicationController
   end
 
   def create
-    @decks = current_user.decks.all
     @card = current_user.cards.create(card_params)
     if @card.save
       redirect_to cards_path, notice: "The card was saved"
@@ -44,7 +44,7 @@ class CardsController < ApplicationController
   end
 
   def random
-    if params[:search].empty?
+    if params[:search].blank?
       @card = current_user.cards.random.order("RANDOM()").take
     else     
       @card = current_user.cards.where(deck_id: params[:search]).random.order("RANDOM()").take
