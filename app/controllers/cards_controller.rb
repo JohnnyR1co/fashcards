@@ -44,7 +44,7 @@ class CardsController < ApplicationController
   end
 
   def random
-    if params[:search] == ""
+    if params[:search].empty?
       @card = current_user.cards.random.order("RANDOM()").take
     else     
       @card = current_user.cards.where(deck_id: params[:search]).random.order("RANDOM()").take

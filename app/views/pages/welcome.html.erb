@@ -1,8 +1,7 @@
 <p>Первый в мире удобный менеджер флеш-карточек. Именно так.</p>
 
-<%= form_tag({controller: "cards", action: "random"}, :method => "get", class: "form") do %>
-  <% @decks = Deck.all %>
-  <p><%= select_tag :search, options_from_collection_for_select(@decks, "id", "name"), 
+<%= form_tag(random_path, method: "get", class: "form") do %>
+  <p><%= select_tag :search, options_from_collection_for_select(Deck.all, "id", "name"), 
                   prompt: "select a field" %></p>
   <p><%= submit_tag "Show Random" %></p>
 <% end %>
