@@ -7,7 +7,6 @@ Rails.application.config.sorcery.configure do |config|
   config.github.secret = Rails.application.secrets.github_secret
   #config.github.callback_url = "http://0.0.0.0:3000/oauth/callback?provider=github"
   config.github.callback_url = "https://afternoon-inlet-3573.herokuapp.com/oauth/callback?provider=github"
-  
   config.github.user_info_mapping = { email: "name" }
 
   config.user_config do |user|
