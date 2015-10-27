@@ -1,5 +1,5 @@
 class CardsController < ApplicationController
-  before_filter :require_login
+  before_action :require_login
   def index
     @cards = current_user.cards.all
   end
@@ -9,7 +9,8 @@ class CardsController < ApplicationController
   end
 
   def new
-    @card = Card.new    
+    @card = Card.new
+    @card.deck_id = params[:deck_id]
   end
 
   def edit
@@ -43,7 +44,11 @@ class CardsController < ApplicationController
   end
 
   def random
-    @card = current_user.cards.random.order("RANDOM()").take
+    if params[:search].blank?
+      @card = current_user.cards.random.order("RANDOM()").take
+    else     
+      @card = current_user.cards.where(deck_id: params[:search]).random.order("RANDOM()").take
+    end
   end
 
   def check
@@ -61,6 +66,6 @@ class CardsController < ApplicationController
   private
   
     def card_params
-      params.require(:card).permit(:original_text, :translated_text, :review_date, :card_picture)
+      params.require(:card).permit(:original_text, :translated_text, :review_date, :card_picture, :deck_id)
     end 
 end

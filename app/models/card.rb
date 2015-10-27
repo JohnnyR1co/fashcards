@@ -1,6 +1,8 @@
 class Card < ActiveRecord::Base
   belongs_to :user
-  validates :original_text, :translated_text, :review_date, presence: { message: "Can't be blank" } 
+  belongs_to :deck
+  validates :original_text, :translated_text, :review_date, :deck_id,
+            presence: true
   validates :original_text, uniqueness: { scope: :user_id }
   scope :random, -> { where("review_date <= ?", Date.today) }
   validate :translate
@@ -9,6 +11,10 @@ class Card < ActiveRecord::Base
   def date_up
     self.review_date += 3.days
     self.save!
+  end
+
+  def self.search(search)
+    where(:deck_id == search) 
   end
 
   def check_translation(your_translate)

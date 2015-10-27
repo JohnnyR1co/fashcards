@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :user_sessions
   resources :users
   resources :cards
+  resources :decks
   get "random" => "cards#random"
   put "check" => "cards#check"
   patch "check" => "cards#check"

@@ -1,0 +1,17 @@
+<%= form_for @deck, html: {class: "form"} do |f| %>
+  <% if @deck.errors.any? %>
+    <ul>
+      <% @deck.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  <% end %>
+  <p>
+    <h1><%= f.label :name %><br></h1>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
