@@ -3,6 +3,9 @@ CarrierWave.configure do |config|
     provider:              "AWS",
     aws_access_key_id:     ENV["AMAZON_KEY"],
     aws_secret_access_key: ENV["AMAZON_SECRET"],
+    #aws_access_key_id:     Rails.application.secrets.amazon_key,
+    #aws_secret_access_key: Rails.application.secrets.amazon_secret,
+
   }
   config.fog_directory  = "flashcards-storage"
 end
