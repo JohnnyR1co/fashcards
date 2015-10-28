@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root "pages#welcome"
+  get "start_check" => "pages#start_check"
   resources :user_sessions
   resources :users
   resources :cards
