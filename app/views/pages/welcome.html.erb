@@ -1,7 +1,3 @@
 <p>Первый в мире удобный менеджер флеш-карточек. Именно так.</p>
 
-<%= form_tag(random_path, method: "get", class: "form") do %>
-  <p><%= select_tag :search, options_from_collection_for_select(current_user.decks.all, "id", "name"),
-                  prompt: "select category" %></p>
-  <p><%= submit_tag "Show Random" %></p>
-<% end %>
+<%= link_to "Start check", start_check_path %>

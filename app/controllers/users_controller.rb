@@ -14,6 +14,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      auto_login(@user)
       redirect_to root_url, notice: "Signed up!"
     else
       render "new"
@@ -21,13 +22,13 @@ class UsersController < ApplicationController
   end
 
   def update
-    @user = User.find(params[:id]) 
+    @user = User.find(params[:id])
 
     if @user.update(user_params)
       redirect_to root_path, notice: "The user has been updated"
     else
       render "edit"
-    end 
+    end
   end
 
   private
