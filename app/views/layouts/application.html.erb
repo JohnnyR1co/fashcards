@@ -22,23 +22,22 @@
             <%= link_to "Login with Github", auth_at_provider_path(provider: :github) %>
           <% end %>
         </div>
-      </div> 
+      </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h3>Флэшкарточкер</h3>
+          <h3><%= link_to "Флэшкарточкер", root_path %></h3>
         </div>
         <div class="col-md-9">
           <div class="pull-right">
             <ul class="nav nav-pills">
-              <li role="presentation"><%= link_to "Home", root_path, class: "btn" %></li>
               <li role="presentation"><%= link_to "Deck controll", decks_path, class: "btn" %></li>
-            </ul>          
+            </ul>
           </div>
-        </div>  
-      </div>     
-    </div>    
+        </div>
+      </div>
+    </div>
   </div>
   <div class="main">
     <div class="container">
