@@ -13,23 +13,23 @@ class Card < ActiveRecord::Base
   end
 
   def date_up
-      case self.check_count
-      when 0 then
-        self.check_count += 1
-        self.review_date += 12.hours
-      when 1 then
-        self.check_count += 1
-        self.review_date += 3.days
-      when 2 then
-        self.check_count += 1
-        self.review_date += 7.days
-      when 3 then
-        self.check_count += 1
-        self.review_date += 14.days
-      when 4 then
-        self.review_date += 1.month
-      end
-    self.save!
+    case self.check_count
+    when 0 then
+      self.check_count += 1  
+      self.review_date += 12.hours
+    when 1 then
+      self.check_count += 1
+      self.review_date += 3.days
+    when 2 then
+      self.check_count += 1
+      self.review_date += 7.days
+    when 3 then
+      self.check_count += 1
+      self.review_date += 14.days
+    when 4 then
+      self.review_date += 1.month
+    end
+   self.save!
   end
 
   def date_down
