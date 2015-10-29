@@ -54,8 +54,6 @@ class Card < ActiveRecord::Base
     self.save!
   end
 
-
-
   def self.search(search)
     where(:deck_id == search)
   end
