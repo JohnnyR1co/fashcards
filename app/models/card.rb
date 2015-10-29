@@ -4,21 +4,60 @@ class Card < ActiveRecord::Base
   validates :original_text, :translated_text, :review_date, :deck_id,
             presence: true
   validates :original_text, uniqueness: { scope: :user_id }
-  scope :random, -> { where("review_date <= ?", Date.today) }
+  scope :random, -> { where("review_date >= ?", Date.today) }
   validate :translate
   mount_uploader :card_picture, CardPictureUploader
 
+  def check_translation(your_translate)
+    self.translated_text == your_translate
+  end
+
   def date_up
-    self.review_date += 3.days
+    check_count =
+      case self.check_count
+      when 0 then
+        self.check_count += 1
+        self.review_date += 12.hours
+      when 1 then
+        self.check_count += 1
+        self.review_date += 3.days
+      when 2 then
+        self.check_count += 1
+        self.review_date += 7.days
+      when 3 then
+        self.check_count += 1
+        self.review_date += 14.days
+      when 4 then
+        self.review_date += 1.month
+      end
     self.save!
   end
 
-  def self.search(search)
-    where(:deck_id == search) 
+  def date_down
+    check_count =
+      case self.check_count
+      when 0 then
+        self.review_date -= 12.hours
+      when 1 then
+        self.check_count -= 1
+        self.review_date -= 3.days
+      when 2 then
+        self.check_count -= 1
+        self.review_date -= 7.days
+      when 3 then
+        self.check_count -= 1
+        self.review_date -= 14.days
+      when 4 then
+        self.check_count -= 1
+        self.review_date -= 1.month
+      end
+    self.save!
   end
 
-  def check_translation(your_translate)
-    self.translated_text == your_translate
+
+
+  def self.search(search)
+    where(:deck_id == search)
   end
 
   def translate
