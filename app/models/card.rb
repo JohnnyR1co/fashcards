@@ -13,7 +13,6 @@ class Card < ActiveRecord::Base
   end
 
   def date_up
-    check_count =
       case self.check_count
       when 0 then
         self.check_count += 1
@@ -34,7 +33,6 @@ class Card < ActiveRecord::Base
   end
 
   def date_down
-    check_count =
       case self.check_count
       when 0 then
         self.review_date -= 12.hours
