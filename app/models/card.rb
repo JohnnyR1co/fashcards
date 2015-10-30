@@ -9,12 +9,12 @@ class Card < ActiveRecord::Base
   mount_uploader :card_picture, CardPictureUploader
 
   def check_translation(your_translate)
-    self.translated_text == your_translate
+    translated_text == your_translate
   end
 
   def date_change(your_translate)
     time = [12.hours, 3.days, 7.days, 14.days, 1.month]
-    if self.check_translation(your_translate)
+    if check_translation(your_translate)
       self.review_date += time[check_count]
       self.check_count += 1 if check_count < 4
     else
