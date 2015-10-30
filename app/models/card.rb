@@ -12,30 +12,14 @@ class Card < ActiveRecord::Base
     self.translated_text == your_translate
   end
 
-  def date_up
-    case check_count
-    when 0 then self.review_date += 12.hours
-    when 1 then self.review_date += 3.days
-    when 2 then self.review_date += 7.days
-    when 3 then self.review_date += 14.days
-    when 4 then self.review_date += 1.month
-    end
-    if check_count < 4
-      self.check_count += 1
-    end
-    self.save!
-  end
-
-  def date_down
-    case check_count
-    when 0 then self.review_date -= 12.hours
-    when 1 then self.review_date -= 3.days
-    when 2 then self.review_date -= 7.days
-    when 3 then self.review_date -= 14.days
-    when 4 then self.review_date -= 1.month
-    end
-    if check_count > 0
-      self.check_count -= 1
+  def date_change(your_translate)
+    time = [12.hours, 3.days, 7.days, 14.days, 1.month]
+    if self.check_translation(your_translate)
+      self.review_date += time[check_count]
+      self.check_count += 1 if check_count < 4
+    else
+      self.review_date -= time[check_count]
+      self.check_count -= 1 if check_count > 0
     end
     self.save!
   end

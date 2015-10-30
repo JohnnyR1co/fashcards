@@ -55,10 +55,10 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
 
     if @card.check_translation(params[:your_translate])
-      @card.date_up
+      @card.date_change(params[:your_translate])
       redirect_to random_path, notice: "You are true"
     else
-      @card.date_down
+      @card.date_change(params[:your_translate])
       flash.now[:alert] = "Try again!"
       render "random"
     end
