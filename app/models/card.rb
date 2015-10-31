@@ -12,7 +12,7 @@ class Card < ActiveRecord::Base
     translated_text == your_translate
   end
 
-  def date_change(your_translate)
+  def handle_check(your_translate)
     time = [12.hours, 3.days, 7.days, 14.days, 1.month]
     if check_translation(your_translate)
       self.review_date += time[check_count]
