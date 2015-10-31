@@ -27,26 +27,26 @@ class CardsController < ApplicationController
   end
 
   def update
-    @card = Card.find(params[:id]) 
+    @card = Card.find(params[:id])
 
     if @card.update(card_params)
       redirect_to cards_path, notice: "The card has been updated"
     else
       render "edit"
-    end 
+    end
   end
 
   def destroy
     @card = Card.find(params[:id])
     @card.destroy
- 
+
     redirect_to cards_path, notice: "The card has been deleted"
   end
 
   def random
     if params[:search].blank?
       @card = current_user.cards.random.order("RANDOM()").take
-    else     
+    else
       @card = current_user.cards.where(deck_id: params[:search]).random.order("RANDOM()").take
     end
   end
@@ -55,17 +55,18 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
 
     if @card.check_translation(params[:your_translate])
-      @card.date_up
+      @card.handle_check(params[:your_translate])
       redirect_to random_path, notice: "You are true"
     else
+      @card.handle_check(params[:your_translate])
       flash.now[:alert] = "Try again!"
       render "random"
     end
   end
 
   private
-  
+
     def card_params
-      params.require(:card).permit(:original_text, :translated_text, :review_date, :card_picture, :deck_id)
-    end 
+      params.require(:card).permit(:original_text, :translated_text, :review_date, :card_picture, :deck_id, :check_count)
+    end
 end
