@@ -61,8 +61,8 @@ class CardsController < ApplicationController
       @card.handle_check(params[:your_translate])
       flash.now[:alert] = "Try again!"
       if @card.check_mistakes(params[:your_translate])
-          flash.now[:alert] = "You make a mistake your word is #{params[:your_translate]},
-                              the translated text is #{@card.translated_text}"
+        flash.now[:alert] = "You make a mistake your word is #{params[:your_translate]},
+                            the translated text is #{@card.translated_text}"
       end
       render "random"
     end
