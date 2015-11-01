@@ -62,8 +62,8 @@ class CardsController < ApplicationController
                           the translated text is #{@card.translated_text}"
       render "random"
     else @card.handle_check(params[:your_translate])
-        flash.now[:alert] = "Try again!"
-        render "random"
+      flash.now[:alert] = "Try again!"
+      render "random"
     end
   end
 
