@@ -24,6 +24,11 @@ class Card < ActiveRecord::Base
     self.save!
   end
 
+  def check_mistakes(your_translate)
+    DamerauLevenshtein.distance(translated_text, your_translate, 2) < 4
+  end
+
+
   def self.search(search)
     where(:deck_id == search)
   end
