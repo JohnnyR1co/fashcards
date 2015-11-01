@@ -21,4 +21,8 @@ require "rails_helper"
       card.handle_check("Тескт")
       expect(card.review_date).to eq("28.09.2016".to_date)
     end
+
+    it "expect you have a notice when you make a mistake" do
+      expect(card.check_mistakes("тЕсТ")).to eq(true)
+    end
   end

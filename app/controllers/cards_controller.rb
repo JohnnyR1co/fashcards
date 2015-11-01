@@ -57,8 +57,11 @@ class CardsController < ApplicationController
     if @card.check_translation(params[:your_translate])
       @card.handle_check(params[:your_translate])
       redirect_to random_path, notice: "You are true"
-    else
-      @card.handle_check(params[:your_translate])
+    elsif @card.check_mistakes(params[:your_translate])
+      flash.now[:alert] = "You make a mistake your word is #{params[:your_translate]},
+                          the translated text is #{@card.translated_text}"
+      render "random"
+    else @card.handle_check(params[:your_translate])
       flash.now[:alert] = "Try again!"
       render "random"
     end
