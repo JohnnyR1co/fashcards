@@ -41,11 +41,11 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   # SMTP settings for gmail
   config.action_mailer.smtp_settings = {
-    :address              => "smtp.mailgun.org",
-    :port                 => 587,
-    :user_name            => "postmaster@sandbox6915f90dd89f4d80a22905f79669452e.mailgun.org",
-    :password             => "5dc09bc16e5bde50419375cfe3b97c8e",
-    :authentication       => "plain",
-    :enable_starttls_auto => true
+    address:              "smtp.mailgun.org",
+    port:                 587,
+    user_name:            "postmaster@sandbox6915f90dd89f4d80a22905f79669452e.mailgun.org",
+    password:             "5dc09bc16e5bde50419375cfe3b97c8e",
+    authentication:       "plain",
+    enable_starttls_auto:  true
   }
 end
