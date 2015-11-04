@@ -1,8 +1,9 @@
-class UserMailer < ApplicationMailer
+class CardsMailer < ApplicationMailer
   default from: "jrico@rubydev.com"
 
-  def welcome_email(user)
-    @user = user
-    mail(to: @user.email, subject: "Sample Email")
+  def pending_cards(card)
+    @card = card
+    mail(to: @card.user.email, subject: "Welcome Email")
+    end
   end
 end
