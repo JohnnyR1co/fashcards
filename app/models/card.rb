@@ -26,7 +26,7 @@ class Card < ActiveRecord::Base
 
   def self.notify_cards
     Card.where("review_date <= ?", Date.today).each do |card|
-       CardsMailer.pending_cards(card.user.email).deliver_now
+      NotificationMailer.pending_cards(card.user.email).deliver_now
     end
   end
 
