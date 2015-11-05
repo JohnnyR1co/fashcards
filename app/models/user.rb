@@ -10,4 +10,8 @@ class User < ActiveRecord::Base
   validates :password, confirmation: true
   validates :password_confirmation, presence: true
   validates :email, uniqueness: true
+
+  def self.send_welcome(user)
+    NotificationMailer.welcome_email(user).deliver_now
+  end
 end
