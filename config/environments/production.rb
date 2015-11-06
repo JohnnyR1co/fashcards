@@ -83,6 +83,7 @@ Rails.application.configure do
     port:                 ENV["MAILGUN_SMTP_PORT"],
     user_name:            ENV["MAILGUN_SMTP_LOGIN"],
     password:             ENV["MAILGUN_SMTP_PASSWORD"],
+    domain:               "sandbox6915f90dd89f4d80a22905f79669452e.mailgun.org",
     authentication:       "plain",
     enable_starttls_auto:  true
   }
