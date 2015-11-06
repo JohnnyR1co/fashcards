@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "rubydev@qq.com"
+  default from: "jrico@rubydev.com"
   layout "mailer"
 end

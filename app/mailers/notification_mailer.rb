@@ -1,5 +1,5 @@
 class NotificationMailer < ApplicationMailer
-  default from: "rubydev@qq.com"
+  default from: "jrico@rubydev.com"
 
   def welcome_email(user)
     @user = user
