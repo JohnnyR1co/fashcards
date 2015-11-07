@@ -19,7 +19,7 @@ gem 'mini_magick'
 gem 'fog'
 gem 'rails_12factor', group: :production
 gem 'puma'
-gem 'mailgun-ruby', '~>1.0.3', require: 'mailgun'
+gem 'mailgun-rails'
 
 group :development, :test do
   gem 'byebug'
