@@ -14,12 +14,12 @@ require "rails_helper"
 
     it "expect your date review date increse" do
       card.handle_check("Тест")
-      expect(card.review_date).to eq("04.10.2016".to_date)
+      expect(card.review_date).to eq("04.10.2015".to_date)
     end
 
     it "expect your date review date decrese" do
       card.handle_check("Тескт")
-      expect(card.review_date).to eq("28.09.2016".to_date)
+      expect(card.review_date).to eq("28.09.2015".to_date)
     end
 
     it "expect you have a notice when you make a mistake" do

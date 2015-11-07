@@ -4,7 +4,7 @@ class Card < ActiveRecord::Base
   validates :original_text, :translated_text, :review_date, :deck_id,
             presence: true
   validates :original_text, uniqueness: { scope: :user_id }
-  scope :random, -> { where("review_date >= ?", Date.today) }
+  scope :random, -> { where("review_date <= ?", Date.today) }
   validate :translate
   mount_uploader :card_picture, CardPictureUploader
 
@@ -22,6 +22,12 @@ class Card < ActiveRecord::Base
       self.check_count -= 1 if check_count > 0
     end
     self.save!
+  end
+
+  def self.notify_cards
+    Card.where("review_date <= ?", Date.today).each do |card|
+      NotificationMailer.pending_cards(card.user.email).deliver_now
+    end
   end
 
   def check_mistakes(your_translate)
