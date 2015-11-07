@@ -8,6 +8,6 @@ class NotificationMailer < ApplicationMailer
 
   def pending_cards(email)
     @email = email
-    mail(to: "rubydev@qq.com", subject: "Pending cards")
+    mail(to: "#{email}!", subject: "Pending cards")
   end
 end
