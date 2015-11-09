@@ -25,6 +25,9 @@ body {
 .header {
   background-color: rgb(245, 153, 55);
   height: 100px;
+  .lang {
+    color: #fff;
+  }
   .nav {
     margin-top: 15px;
   }
@@ -41,7 +44,7 @@ body {
 .main {
   background-color: #000;
   font-size: 16px;
-  min-height: 760px;  
+  min-height: 760px;
   .container {
     padding-top: 20px;
   }
@@ -49,7 +52,7 @@ body {
     color: #fff;
   }
   table {
-    width: 100%;  
+    width: 100%;
   }
   .form {
     color: #000;

@@ -1,0 +1,36 @@
+ru:
+  menu:
+    edit_link: "Редактировать"
+    logout_link: "Выйти"
+    register_link: "Регистрация"
+    login_link: "Войти"
+    github_login: "Войти с Gitghub"
+    flashcard: "Флэшкарточкер"
+    deck_control: "Управление карточками"
+  pages:
+    welcome: "Первый в мире удобный менеджер флеш-карточек. Именно так."
+    start: "Начать проверку"
+    select: "выберите категорию"
+    show: "Показать случайную"
+  decks:
+    index_title: "Ваши колоды"
+    name: "Название"
+    new: "Новая колода"
+    edit: "Редактировать колоду"
+    current: "Текущая колода"
+  cards:
+    original_text: "Слово"
+    translated_text: "Перевод"
+    review_date: "Дата проверки"
+    picture: "Изображение"
+    add: "Добавить карточку"
+    edit: "Редактировать карточку"
+    new: "Новая карточка"
+  actions:
+    show: "показать"
+    destroy: "удалить"
+    edit: "редактировать"
+  random:
+    paragraph: "У вас нет карточек для проверки"
+    title: "Проверка карточек"
+    button: "Проверить"

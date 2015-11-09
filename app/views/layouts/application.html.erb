@@ -14,25 +14,27 @@
         <div class="nav nav pills">
           <% if current_user %>
             <%= current_user.email %>
-            <%= link_to "Edit Profile", edit_user_path(current_user.id) %> |
-            <%= link_to "Logout", :logout, method: :post %>
+            <%= link_to t("menu.edit_link"), edit_user_path(current_user.id) %> |
+            <%= link_to t("menu.logout_link"), :logout, method: :post %>
           <% else %>
-            <%= link_to "Register", new_user_path %> |
-            <%= link_to "Login", :login %> |
-            <%= link_to "Login with Github", auth_at_provider_path(provider: :github) %>
+            <%= link_to t("menu.register_link"), new_user_path %> |
+            <%= link_to t("menu.login_link"), :login %> |
+            <%= link_to t("menu.github_login"), auth_at_provider_path(provider: :github) %>
           <% end %>
+          <%= link_to "En", "#", class: "lang" %>/
+          <%= link_to "Ru", "#", class: "lang" %>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h3><%= link_to "Флэшкарточкер", root_path %></h3>
+          <h3><%= link_to t("menu.flashcard"), root_path %></h3>
         </div>
         <div class="col-md-9">
           <div class="pull-right">
             <ul class="nav nav-pills">
-              <li role="presentation"><%= link_to "Deck controll", decks_path, class: "btn" %></li>
+              <li role="presentation"><%= link_to t("menu.deck_control"), decks_path, class: "btn" %></li>
             </ul>
           </div>
         </div>

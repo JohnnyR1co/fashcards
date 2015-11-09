@@ -3,11 +3,7 @@ class CardsController < ApplicationController
   def index
     @cards = current_user.cards.all
   end
-
-  def show
-    @card = Card.find(params[:id])
-  end
-
+  
   def new
     @card = Card.new
     @card.deck_id = params[:deck_id]
