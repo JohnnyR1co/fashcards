@@ -21,8 +21,8 @@
             <%= link_to t("menu.login_link"), :login %> |
             <%= link_to t("menu.github_login"), auth_at_provider_path(provider: :github) %>
           <% end %>
-          <%= link_to "En", "#", class: "lang" %>/
-          <%= link_to "Ru", "#", class: "lang" %>
+          <%= link_to "En", "?locale=en", class: "lang" %>/
+          <%= link_to "Ru", "?locale=ru", class: "lang" %>
         </div>
       </div>
     </div>
