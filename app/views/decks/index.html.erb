@@ -1,20 +1,20 @@
-<h1><%= t("decks.index_title") %></h1>
+<h1><%= t(".title") %></h1>
 
 <table>
   <tr>
-    <th><%= t("decks.name") %></th>
+    <th><%= t(".name") %></th>
     <th colspan="3"></th>
   </tr>
 
   <% @decks.each do |deck| %>
     <tr>
       <td><%= deck.name %></td>
-      <td><%= link_to t("actions.show"), deck_path(deck) %></td>
-      <td><%= link_to t("actions.edit"), edit_deck_path(deck) %></td>
-      <td><%= link_to t("actions.destroy"), deck_path(deck),
+      <td><%= link_to t(".show"), deck_path(deck) %></td>
+      <td><%= link_to t(".edit"), edit_deck_path(deck) %></td>
+      <td><%= link_to t(".destroy"), deck_path(deck),
           method: :delete,
           data: { confirm: "Are you sure?" } %></td>
     </tr>
   <% end %>
 </table>
-<%= link_to "New", new_deck_path %>
+<%= link_to t(".new"), new_deck_path %>

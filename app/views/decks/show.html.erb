@@ -1,15 +1,15 @@
-<h1><%= t("decks.current") %></h1>
+<h1><%= t(".current") %></h1>
   <p>
-    <strong><%= t("decks.name") %>:</strong>
+    <strong><%= t(".name") %>:</strong>
     <%= @deck.name %>
   </p>
 
 <table>
   <tr>
-    <th><%= t("cards.original_text") %></th>
-    <th><%= t("cards.translated_text") %></th>
-    <th><%= t("cards.review_date") %></th>
-    <th><%= t("cards.picture") %></th>
+    <th><%= t(".original_text") %></th>
+    <th><%= t(".translated_text") %></th>
+    <th><%= t(".review_date") %></th>
+    <th><%= t(".picture") %></th>
     <th colspan="2"></th>
   </tr>
 
@@ -19,12 +19,12 @@
       <td><%= card.translated_text %></td>
       <td><%= card.review_date.strftime("%d/%m/%Y") %></td>
       <td><%= image_tag card.card_picture_url(:thumb) %></td>
-      <td><%= link_to t("actions.edit"), edit_card_path(card) %></td>
-      <td><%= link_to t("actions.destroy"), card_path(card),
+      <td><%= link_to t(".edit"), edit_card_path(card) %></td>
+      <td><%= link_to t(".destroy"), card_path(card),
           method: :delete,
           data: { confirm: "Are you sure?" } %></td>
     </tr>
   <% end %>
 </table>
 
-<%= link_to t("cards.add"), new_card_path(deck_id: @deck) %>
+<%= link_to t(".add"), new_card_path(deck_id: @deck) %>

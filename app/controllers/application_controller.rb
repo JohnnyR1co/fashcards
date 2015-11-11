@@ -3,12 +3,12 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
 
   def set_locale
-    I18n.locale = if current_user
-      current_user.try(:locale)
+     if current_user
+      I18n.locale = current_user.try(:locale)
     elsif
-      params[:locale]
+      I18n.locale = params[:locale]
     else
-      http_accept_language.compatible_language_from(I18n.available_locales)
+      I18n.locale = http_accept_language.compatible_language_from(I18n.available_locales)
     end
   end
 
