@@ -10,15 +10,20 @@
     <h1><%= f.label :email %><br></h1>
     <%= f.text_field :email %>
   </p>
- 
+
   <p>
     <h1><%= f.label :password %><br></h1>
     <%= f.password_field :password %>
   </p>
- 
+
   <p>
     <h1><%= f.label :password_confirmation %></h1>
     <%= f.password_field :password_confirmation %>
+  </p>
+
+  <p>
+    <h1><%= f.label :locale %></h1>
+    <%= f.select :locale, [["English", "en"], ["Russian", "ru"]] %>
   </p>
 
   <p>

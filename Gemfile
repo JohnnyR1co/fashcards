@@ -20,6 +20,7 @@ gem 'fog'
 gem 'rails_12factor', group: :production
 gem 'puma'
 gem 'mailgun-rails'
+gem 'http_accept_language'
 
 group :development, :test do
   gem 'byebug'
