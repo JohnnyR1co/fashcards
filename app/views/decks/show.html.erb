@@ -10,6 +10,10 @@
     <th><%= t(".translated_text") %></th>
     <th><%= t(".review_date") %></th>
     <th><%= t(".picture") %></th>
+    <th>check</th>
+    <th>repetition_interval</th>
+    <th>ef</th>
+    <th>quality</th>
     <th colspan="2"></th>
   </tr>
 
@@ -19,6 +23,10 @@
       <td><%= card.translated_text %></td>
       <td><%= card.review_date.strftime("%d/%m/%Y") %></td>
       <td><%= image_tag card.card_picture_url(:thumb) %></td>
+      <td><%= card.check %></td>
+      <td><%= card.repetition_interval %></td>
+      <td><%= card.ef %></td>
+      <td><%= card.quality %></td>
       <td><%= link_to t(".edit"), edit_card_path(card) %></td>
       <td><%= link_to t(".destroy"), card_path(card),
           method: :delete,

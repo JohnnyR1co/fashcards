@@ -50,22 +50,19 @@ class CardsController < ApplicationController
   def check
     @card = Card.find(params[:id])
 
-    if @card.check_translation(params[:your_translate])
-      @card.handle_check(params[:your_translate])
+    if @card.levenshtein(params[:your_translate])
       redirect_to random_path, notice: "You are true"
-    elsif @card.check_mistakes(params[:your_translate])
-      flash.now[:alert] = "You make a mistake your word is #{params[:your_translate]},
-                          the translated text is #{@card.translated_text}"
-      render "random"
-    else @card.handle_check(params[:your_translate])
+    else
       flash.now[:alert] = "Try again!"
       render "random"
     end
+    @card = Supermemo.new(@card).manage(params[:your_translate])
   end
 
   private
 
     def card_params
-      params.require(:card).permit(:original_text, :translated_text, :review_date, :card_picture, :deck_id, :check_count)
+      params.require(:card).permit(:original_text, :translated_text, :review_date, :card_picture, :deck_id,
+                                   :check, :ef, :repetition_interval, :quality)
     end
 end
