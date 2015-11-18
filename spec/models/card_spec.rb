@@ -13,6 +13,6 @@ require "rails_helper"
     end
 
     it "expect you have a notice when you make a mistake" do
-      expect(card.check_mistakes("тЕсТ")).to eq(true)
+      expect(card.levenshtein("тЕст")).to eq(true)
     end
   end
