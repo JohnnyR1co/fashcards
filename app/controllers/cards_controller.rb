@@ -49,6 +49,7 @@ class CardsController < ApplicationController
 
   def check
     @card = Card.find(params[:id])
+    Supermemo.new(@card).manage(params[:your_translate])
 
     if @card.levenshtein(params[:your_translate])
       redirect_to random_path, notice: "You are true"
@@ -56,7 +57,6 @@ class CardsController < ApplicationController
       flash.now[:alert] = "Try again!"
       render "random"
     end
-    @card = Supermemo.new(@card).manage(params[:your_translate])
   end
 
   private
