@@ -2,7 +2,7 @@ require "rails_helper"
 
 describe "Checking login_action" do
   let!(:user) { create(:user) }
-  
+
   it "it expect you enter a right password" do
     visit root_path
     click_link "Login"

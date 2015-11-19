@@ -12,26 +12,14 @@ class Card < ActiveRecord::Base
     translated_text == your_translate
   end
 
-  def handle_check(your_translate)
-    time = [12.hours, 3.days, 7.days, 14.days, 1.month]
-    if check_translation(your_translate)
-      self.review_date += time[check_count]
-      self.check_count += 1 if check_count < 4
-    else
-      self.review_date -= time[check_count]
-      self.check_count -= 1 if check_count > 0
-    end
-    self.save!
-  end
-
   def self.notify_cards
     Card.where("review_date <= ?", Date.today).each do |card|
       NotificationMailer.pending_cards(card.user.email).deliver_now
     end
   end
 
-  def check_mistakes(your_translate)
-    DamerauLevenshtein.distance(translated_text, your_translate, 2) < 4
+  def levenshtein(your_translate)
+    DamerauLevenshtein.distance(translated_text, your_translate) < 3
   end
 
   def self.search(search)
