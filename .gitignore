@@ -18,3 +18,4 @@
 /tmp
 database.yml
 .DS_Store
+.env

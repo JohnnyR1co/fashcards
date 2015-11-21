@@ -21,6 +21,8 @@ gem 'rails_12factor', group: :production
 gem 'puma'
 gem 'mailgun-rails'
 gem 'http_accept_language'
+gem 'rollbar', '~> 2.6.1'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'byebug'
