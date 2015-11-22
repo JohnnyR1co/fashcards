@@ -17,7 +17,6 @@ gem 'sorcery'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
-gem 'rails_12factor', group: :production
 gem 'puma'
 gem 'mailgun-rails'
 gem 'http_accept_language'
@@ -29,4 +28,13 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'factory_girl_rails'
+end
+
+group :production, :test do
+  gem 'rollbar', '~> 2.6.1'
+end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'newrelic_rpm'
 end
