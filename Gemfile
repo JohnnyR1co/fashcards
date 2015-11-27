@@ -21,6 +21,7 @@ gem 'puma'
 gem 'mailgun-rails'
 gem 'http_accept_language'
 gem 'rollbar', '~> 2.6.1'
+gem 'responders', '~> 2.0' 
 
 group :development, :test do
   gem 'byebug'

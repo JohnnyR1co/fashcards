@@ -1,5 +1,6 @@
 class CardsController < ApplicationController
   before_action :require_login
+  respond_to :html, :js
   def index
     @cards = current_user.cards.all
   end
