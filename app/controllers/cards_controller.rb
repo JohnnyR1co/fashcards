@@ -1,6 +1,5 @@
 class CardsController < ApplicationController
   before_action :require_login
-  respond_to :html, :js
   def index
     @cards = current_user.cards.all
   end
@@ -52,11 +51,16 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
     Supermemo.new(@card).manage(params[:your_translate])
 
-    if @card.levenshtein(params[:your_translate])
-      redirect_to random_path, notice: "You are true"
-    else
-      flash.now[:alert] = "Try again!"
-      render "random"
+    respond_to do |format|
+      if @card.levenshtein(params[:your_translate])
+        format.html { redirect_to random_path, notice: "You are true" }
+        format.json
+        flash[:notice] = "You are true"
+      else
+        format.html { render "random" }
+        format.json
+        flash[:message] = "You make a mistake"
+      end
     end
   end
 
