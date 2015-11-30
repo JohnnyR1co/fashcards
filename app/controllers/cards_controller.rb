@@ -53,13 +53,14 @@ class CardsController < ApplicationController
 
     respond_to do |format|
       if @card.levenshtein(params[:your_translate])
-        format.html { redirect_to random_path, notice: "You are true" }
+        format.html { redirect_to random_path, notice: "You are the best of the best" }
         format.json
-        flash[:notice] = "You are true"
+
       else
-        format.html { render "random" }
+        format.html {
+          redirect_to random_path
+          flash[:notice] = "Bla Bla" }
         format.json
-        flash[:message] = "You make a mistake"
       end
     end
   end
