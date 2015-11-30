@@ -55,7 +55,6 @@ class CardsController < ApplicationController
       if @card.levenshtein(params[:your_translate])
         format.html { redirect_to random_path, notice: "You are true" }
         format.json
-
       else
         format.html {
           redirect_to random_path
