@@ -56,9 +56,10 @@ class CardsController < ApplicationController
         format.html { redirect_to random_path, notice: "You are true" }
         format.json
       else
-        format.html {
+        format.html do
           redirect_to random_path
-          flash[:notice] = "You are whrong" }
+          flash[:notice] = "You are whrong"
+        end
         format.json
       end
     end
