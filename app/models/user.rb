@@ -16,6 +16,7 @@ class User < ActiveRecord::Base
   end
 
   private
+
     def new_user?
       new_record?
     end
