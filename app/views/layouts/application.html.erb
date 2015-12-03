@@ -23,7 +23,7 @@
           <% end %>
 
           <% %w(en ru).each do |lang| %>
-            <%= link_to "#{lang}", "?locale=#{lang}", class: "lang" %>
+            <%= link_to "#{lang}", { locale: "#{lang}" }, class: "lang" %>
           <% end %>
         </div>
       </div>

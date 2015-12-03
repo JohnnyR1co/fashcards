@@ -20,6 +20,8 @@ gem 'fog'
 gem 'puma'
 gem 'mailgun-rails'
 gem 'http_accept_language'
+gem 'rollbar', '~> 2.6.1'
+gem 'responders', '~> 2.0' 
 
 group :development, :test do
   gem 'byebug'
@@ -28,10 +30,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'factory_girl_rails'
-end
-
-group :production, :test do
-  gem 'rollbar', '~> 2.6.1'
 end
 
 group :production do

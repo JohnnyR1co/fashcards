@@ -1,13 +1,4 @@
-<% if @card.nil? %>
-  <p><%= t(".paragraph") %></p>
-<% else %>
-  <h1><%= t(".title") %></h1>
-  <p><%= @card.original_text %></p>
-  <p><%= image_tag @card.card_picture_url %></p>
-
-  <%= form_for @card, url: {action: "check"}, html: {class: "form"} do |f| %>
-    <%= text_field_tag :your_translate, params[:your_translate] %>
-    <%= hidden_field_tag :id, @card.id %>
-    <%= f.submit t(".button") %>
-  <% end %>
-<% end %>
+<div id="notice"></div>
+<div id="task-form">
+  <%= render "random" %>
+</div>
