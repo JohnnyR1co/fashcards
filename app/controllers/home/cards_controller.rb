@@ -52,7 +52,7 @@ class Home::CardsController < Home::ApplicationController
 
     respond_to do |format|
       if @card.levenshtein(params[:your_translate])
-        format.html { redirect_to home_random_path, notice: "You are true" }
+        format.html { redirect_to random_path, notice: "You are true" }
         format.json
       else
         format.html do
