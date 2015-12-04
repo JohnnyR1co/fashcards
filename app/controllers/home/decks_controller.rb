@@ -1,5 +1,4 @@
-class DecksController < ApplicationController
-  before_action :require_login
+class Home::DecksController < Home::ApplicationController
   def index
     @decks = current_user.decks.all
   end
@@ -24,21 +23,21 @@ class DecksController < ApplicationController
       render "new"
     end
   end
-  
+
   def update
-    @deck = Deck.find(params[:id]) 
+    @deck = Deck.find(params[:id])
 
     if @deck.update(deck_params)
       redirect_to decks_path, notice: "The deck has been updated"
     else
       render "edit"
-    end 
+    end
   end
 
   def destroy
     @deck = Deck.find(params[:id])
     @deck.destroy
- 
+
     redirect_to decks_path, notice: "The deck has been deleted"
   end
 
@@ -46,5 +45,5 @@ class DecksController < ApplicationController
 
     def deck_params
       params.require(:deck).permit(:name)
-    end 
+    end
 end

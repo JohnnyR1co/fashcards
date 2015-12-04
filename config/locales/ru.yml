@@ -8,42 +8,44 @@ ru:
       github_login: "Войти с Gitghub"
       flashcard: "Флэшкарточкер"
       deck_control: "Управление колодами"
-  pages:
-    welcome:
-      welcome: "Первый в мире удобный менеджер флеш-карточек. Именно так."
-      start: "Начать проверку"
-    start_check:
-      select: "выберите категорию"
-      show: "Показать случайную"
-      title: "Начать проверку"
-  decks:
-    index:
-      title: "Ваши колоды"
-      name: "Название"
-      show: "показать"
-      destroy: "удалить"
-      edit: "редактировать"
-      new: "добавить"
-    new:
-      new: "Новая колода"
-    edit:
-      edit: "Редактировать колоду"
-    show:
-      name: "Название"
-      current: "Текущая колода"
-      original_text: "Слово"
-      translated_text: "Перевод"
-      review_date: "Дата проверки"
-      picture: "Изображение"
-      add: "Добавить карточку"
-      destroy: "удалить"
-      edit: "редактировать"
-  cards:
-    random:
-      paragraph: "У вас нет карточек для проверки"
-      title: "Проверка карточек"
-      button: "Проверить"
-    new:
-      new: "Новая карточка"
-    edit:
-      edit: "Редактировать карточку"
+  dashboard:
+    pages:
+      welcome:
+        welcome: "Первый в мире удобный менеджер флеш-карточек. Именно так."
+        start: "Начать проверку"
+      start_check:
+        select: "выберите категорию"
+        show: "Показать случайную"
+        title: "Начать проверку"
+  home:
+    decks:
+      index:
+        title: "Ваши колоды"
+        name: "Название"
+        show: "показать"
+        destroy: "удалить"
+        edit: "редактировать"
+        new: "добавить"
+      new:
+        new: "Новая колода"
+      edit:
+        edit: "Редактировать колоду"
+      show:
+        name: "Название"
+        current: "Текущая колода"
+        original_text: "Слово"
+        translated_text: "Перевод"
+        review_date: "Дата проверки"
+        picture: "Изображение"
+        add: "Добавить карточку"
+        destroy: "удалить"
+        edit: "редактировать"
+    cards:
+      random:
+        paragraph: "У вас нет карточек для проверки"
+        title: "Проверка карточек"
+        button: "Проверить"
+      new:
+        new: "Новая карточка"
+      edit:
+        edit: "Редактировать карточку"
