@@ -16,9 +16,9 @@ class ApplicationController < ActionController::Base
     { locale: I18n.locale }
   end
 
-  private
+#  private
 
-    def not_authenticated
-      redirect_to login_path, alert: "Please login first"
-    end
+#    def not_authenticated
+#      redirect_to login_path, alert: "Please login first"
+#    end
 end

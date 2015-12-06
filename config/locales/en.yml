@@ -13,7 +13,6 @@ en:
       welcome:
         welcome: "This is the first and the best cardchecker in the world. Exactly."
         start: "Start check"
-      start_check:
         select: "select category"
         show: "Show Random"
         title: "Start check"
