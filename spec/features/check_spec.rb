@@ -13,7 +13,6 @@ describe "Checking card" do
 
   it "redirects card to random when your translate is true" do
     visit root_path
-    click_link "Start check"
     select("Fruits", from: "search")
     click_button("Show Random")
     fill_in "your_translate", with: "Тест"
