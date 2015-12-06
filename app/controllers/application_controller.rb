@@ -15,10 +15,4 @@ class ApplicationController < ActionController::Base
   def default_url_options
     { locale: I18n.locale }
   end
-
-#  private
-
-#    def not_authenticated
-#      redirect_to login_path, alert: "Please login first"
-#    end
 end
