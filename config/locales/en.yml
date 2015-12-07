@@ -1,49 +1,50 @@
 en:
   layouts:
-      application:
-        edit_link: "Edit Profile"
-        logout_link: "Logout"
-        register_link: "Register"
-        login_link: "Login"
-        github_login: "Login with Gitghub"
-        flashcard: "Flashcardchecker"
-        deck_control: "Deck controll"
-  pages:
-    welcome:
-      welcome: "This is the first and the best cardchecker in the world. Exactly."
-      start: "Start check"
-    start_check:
-      select: "select category"
-      show: "Show Random"
-      title: "Start check"
-  decks:
-    index:
-      title: "Your Decks"
-      name: "Deck name"
-      show: "show"
-      destroy: "destroy"
-      edit: "edit"
-      new: "new"
-    new:
-      new: "New Deck"
-    edit:
-      edit: "Edit Deck"
-    show:
-      name: "Deck name"
-      current: "Current Deck"
-      original_text: "Original text"
-      translated_text: "Translated text"
-      review_date: "Review date"
-      picture: "Card picture"
-      add: "Add Card"
-      destroy: "destroy"
-      edit: "edit"
-  cards:
-    random:
-      paragraph: "You dont have card to ckeckout"
-      title: "Card checking"
-      button: "Check"
-    new:
-      new: "New Card"
-    edit:
-      edit: "Edit Card"
+    application:
+      edit_link: "Edit Profile"
+      logout_link: "Logout"
+      register_link: "Register"
+      login_link: "Login"
+      github_login: "Login with Gitghub"
+      flashcard: "Flashcardchecker"
+      deck_control: "Deck controll"
+  dashboard:
+    pages:
+      welcome:
+        welcome: "This is the first and the best cardchecker in the world. Exactly."
+        start: "Start check"
+        select: "select category"
+        show: "Show Random"
+        title: "Start check"
+  home:
+    decks:
+      index:
+        title: "Your Decks"
+        name: "Deck name"
+        show: "show"
+        destroy: "destroy"
+        edit: "edit"
+        new: "new"
+      new:
+        new: "New Deck"
+      edit:
+        edit: "Edit Deck"
+      show:
+        name: "Deck name"
+        current: "Current Deck"
+        original_text: "Original text"
+        translated_text: "Translated text"
+        review_date: "Review date"
+        picture: "Card picture"
+        add: "Add Card"
+        destroy: "destroy"
+        edit: "edit"
+    cards:
+      random:
+        paragraph: "You dont have card to ckeckout"
+        title: "Card checking"
+        button: "Check"
+      new:
+        new: "New Card"
+      edit:
+        edit: "Edit Card"

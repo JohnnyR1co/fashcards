@@ -1,5 +1,4 @@
-class CardsController < ApplicationController
-  before_action :require_login
+class Home::CardsController < Home::ApplicationController
   def index
     @cards = current_user.cards.all
   end
@@ -16,7 +15,7 @@ class CardsController < ApplicationController
   def create
     @card = current_user.cards.create(card_params)
     if @card.save
-      redirect_to cards_path, notice: "The card was saved"
+      redirect_to home_cards_path, notice: "The card was saved"
     else
       render "new"
     end
@@ -26,7 +25,7 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
 
     if @card.update(card_params)
-      redirect_to cards_path, notice: "The card has been updated"
+      redirect_to home_cards_path, notice: "The card has been updated"
     else
       render "edit"
     end
@@ -36,7 +35,7 @@ class CardsController < ApplicationController
     @card = Card.find(params[:id])
     @card.destroy
 
-    redirect_to cards_path, notice: "The card has been deleted"
+    redirect_to home_cards_path, notice: "The card has been deleted"
   end
 
   def random

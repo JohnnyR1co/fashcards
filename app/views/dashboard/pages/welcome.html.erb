@@ -1,0 +1,9 @@
+<p><%= t(".welcome") %></p>
+
+<% if current_user %>
+  <%= form_tag(random_path, method: "get", class: "form") do %>
+    <p><%= select_tag :search, options_from_collection_for_select(current_user.decks.all, "id", "name"),
+                      prompt: t(".select") %></p>
+    <p><%= submit_tag t(".show") %></p>
+  <% end %>
+<% end %>

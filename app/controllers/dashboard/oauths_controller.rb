@@ -1,4 +1,4 @@
-class OauthsController < ApplicationController
+class Dashboard::OauthsController < Dashboard::ApplicationController
   skip_before_action :require_login
 
   def oauth
@@ -24,7 +24,7 @@ class OauthsController < ApplicationController
   end
 
   private
-  
+
    def auth_params
      params.permit(:code, :provider)
    end
