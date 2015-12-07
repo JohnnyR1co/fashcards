@@ -13,6 +13,8 @@
 
 # Ignore all logfiles and tempfiles.
 /public/uploads/*
+/config/provision/configs/*
+/config/provision/keys/*
 /log/*
 !/log/.keep
 /tmp
