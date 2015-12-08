@@ -1,6 +1,6 @@
 ---
-  - hosts: 'all'
-    remote_user: 'root'
+- hosts: 'all'
+  remote_user: 'root'
 
   # В данном блоке объявляются переменные, которые будут использоваться в playbook и конфигах, представленных выше
   vars:
@@ -30,6 +30,7 @@
       with_items:
         - 'build-essential'
         - 'libssl-dev'
+        - 'libffi-dev'
         - 'libyaml-dev'
         - 'libreadline6-dev'
         - 'zlib1g-dev'
@@ -128,7 +129,7 @@
       when: 'postgres_login|failed'
 
     - name: 'postgresql | create shared directory'
-      shell: 'mkdir -p {{ application }}/shared/config -m 775 && chown -R {{ user }}:{{ user }} {{ home }}/applications'
+      shell: 'mkdir -p {{ application }}/shared/config -m 775 && chown -R {{ user }}:{{ user }} {{ home }}//documents/rails'
       when: 'postgres_login|failed'
 
     - name: 'postgresql | copy database.yml'
