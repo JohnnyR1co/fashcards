@@ -1,10 +1,10 @@
-ip = '45.55.171.113'
+ip = '104.236.119.46'
 
-role :app, ["root@#{ip}"]
-role :web, ["root@#{ip}"]
-role :db,  ["root@#{ip}"]
+role :app, ["deploy@#{ip}"]
+role :web, ["deploy@#{ip}"]
+role :db,  ["deploy@#{ip}"]
 
-server ip, user: 'root', roles: %w{web app db}
+server ip, user: 'deploy', roles: %w{web app db}
 
 set :stage, 'production'
 set :rails_env, 'production'

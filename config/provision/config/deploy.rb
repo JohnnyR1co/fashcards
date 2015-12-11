@@ -1,7 +1,7 @@
 set :application, 'flashcards'
 set :repo_url, 'git@github.com:JohnnyR1co/fashcards.git'
 set :branch, 'master'
-set :deploy_to, '/home/apple/documents/rails/flashcards'
+set :deploy_to, '/home/deploy/applications/flashcards'
 set :log_level, :info
 # Копирующиеся файлы и директории (между деплоями)
 set :linked_files, %w{config/database.yml config/settings.yml}
