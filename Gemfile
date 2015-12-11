@@ -7,6 +7,14 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem  'damerau-levenshtein'
 gem 'whenever', require: false
+# Гем, который добавляет специфические для Rails таски, такие как прогон миграций и компиляция ассетов
+gem 'capistrano-rails'
+# Гем, добавляющий возможности bundle к capistrano
+gem 'capistrano-bundler'
+# Добавление поддержки Rbenv (менеджера версий для Ruby)
+gem 'capistrano-rbenv'
+# Интеграция пумы и капистрано
+gem 'capistrano3-puma'
 
 gem 'jquery-rails'
 gem 'turbolinks'
@@ -21,7 +29,7 @@ gem 'puma'
 gem 'mailgun-rails'
 gem 'http_accept_language'
 gem 'rollbar', '~> 2.6.1'
-gem 'responders', '~> 2.0' 
+gem 'responders', '~> 2.0'
 
 group :development, :test do
   gem 'byebug'
