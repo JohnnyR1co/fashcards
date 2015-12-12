@@ -5,7 +5,7 @@ gem 'rails', '4.2.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
-gem  'damerau-levenshtein'
+gem 'damerau-levenshtein'
 gem 'whenever', require: false
 # Гем, который добавляет специфические для Rails таски, такие как прогон миграций и компиляция ассетов
 gem 'capistrano-rails'
@@ -15,6 +15,7 @@ gem 'capistrano-bundler'
 gem 'capistrano-rbenv'
 # Интеграция пумы и капистрано
 gem 'capistrano3-puma'
+gem 'dotenv-rails', :groups => [:development, :test, :production]
 
 gem 'jquery-rails'
 gem 'turbolinks'

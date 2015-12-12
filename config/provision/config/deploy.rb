@@ -4,7 +4,7 @@ set :branch, 'master'
 set :deploy_to, '/home/deploy/applications/flashcards'
 set :log_level, :info
 # Копирующиеся файлы и директории (между деплоями)
-set :linked_files, %w{config/database.yml config/settings.yml}
+set :linked_files, %w{config/database.yml config/settings.yml .env.production}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/uploads}
 
 # Ruby свистелки
